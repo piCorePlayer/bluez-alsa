@@ -9,7 +9,8 @@ bluealsa_aplay_SOURCES = \
 	../src/shared/dbus-client.c \
 	../src/shared/ffb.c \
 	../src/shared/log.c \
-	aplay.c
+	aplay.c \
+	volume_mapping.c
 bluealsa_aplay_CFLAGS = \
 	-I$(top_srcdir)/src \
 	@ALSA_CFLAGS@ \
